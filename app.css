@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+html{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato', 'Roboto', sans-serif;
+    font-style: normal;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #FFFFFF;
+}
+.gap{
+}
+
+.underline{
+    border-bottom: 1px #35373B solid
+}

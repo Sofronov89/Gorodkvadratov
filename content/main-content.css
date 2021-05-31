@@ -1,0 +1,97 @@
+.main_content {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.main_content_elem{
+    height: 100%;
+    width: 100%;
+    max-width: 1180px;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button_timer{
+    width: 196px;
+    height: 54px;
+    left: 377px;
+    top: 618px;
+    background: #4073FF;
+    border-radius: 6px;
+    color: #FFFFFF;
+}
+
+.time_timer{
+    display: flex;
+    margin-left: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 54px;
+}
+
+.timer{
+    display: flex;
+    line-height: 55px;
+    color: #4073FF;
+    margin-top: 48px;
+}
+
+.content_left{
+    display: flex;
+    flex-direction: column;
+    width: 42%;
+}
+
+.content_right{
+    background-image: url(images/Depositphotos_227034588_l-2015.png);
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 526px;
+    display: table;
+    float: right;
+}
+
+.content_left_text1{
+    font-weight: bold;
+    font-size: 90px;
+    line-height: 108px;
+    color: #35373B;
+}
+
+.content_left_text2{
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    color: #35373B;
+    margin-top: 24px;
+}
+
+.content_left_text3{
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 29px;
+    color: #35373B;
+    margin-top: 25px;
+}
+
+.content_left_text4{
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #828282;
+    width: 92%;
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 760px)
+{
+    .main_content_elem{
+        flex-direction: column-reverse;
+    }
+}
